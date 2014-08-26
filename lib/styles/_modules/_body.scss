@@ -1,17 +1,51 @@
-@font-face {
-    font-weight: normal;
-    font-style: normal;
-    font-family: 'consolas';
-    src: url('../font/consolas-webfont.eot');
-    src: url('../font/consolas-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/consolas-webfont.woff') format('woff'),
-         url('../font/consolas-webfont.ttf') format('truetype'),
-         url('../font/consolas-webfont.svg#consolasregular') format('svg');
+body 
+{
+
 }
 
-h1 {
-	top: 10px;
-	right: 100px; 
-	bottom: 10px;
-	color: blue; 
-	font-family: 'consolas';}
+$title-color : white;
+
+/* General
+*/
+.divider 
+{
+	background-color: black;
+}
+
+/* Global
+*/
+
+.job_title, .profile h1 
+{
+	color: $title-color;
+}
+
+.email, .github 
+{
+	float: left;
+}
+.twitter 
+{
+	clear: left;
+}
+.communications a 
+{
+	
+}
+
+
+/* Header
+*/
+
+/* Profile
+*/
+
+.profile .divider 
+{
+	width: 100px;
+}
+
+.profile h1 
+{
+	margin: 10px 0 0 0;
+}
