@@ -8,14 +8,46 @@
 /* Global
 */
 
+ul.communications 
+{
+	list-style: none;
+	li 
+	{
+		
+	}
+}
+
+
 .job_title, .profile h1 
 {
 	color: $primary;
 }
 
+.email, .github 
+{
+	
+}
+.twitter 
+{
+	
+}
+.communications a 
+{
+	
+}
 
 /* Shared
 */
+
+
+/* Header
+*/
+
+.header 
+{
+	margin: 47px auto 0;
+	padding: 0 22px;
+}
 
 .small_divider
 {
@@ -30,7 +62,6 @@
 .profile 
 {
 	margin: 47px auto 0;
-	padding: 0 22px;
 }
 
 .profile .divider 
@@ -41,28 +72,4 @@
 .profile h1 
 {
 	margin: 10px 0 0 0;
-}
-
-/* Communications
-*/
-ul.communications 
-{
-	display: inline;
-	li 
-	{
-		display: inline;
-	}
-}
-
-.email, .github 
-{
-	
-}
-.twitter 
-{
-	
-}
-.communications a 
-{
-	
 }
