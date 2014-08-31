@@ -42,7 +42,7 @@ body { background-color: #fafaed; color: #1b325f; text-shadow: 0 .02em #fff; lin
 */
 .profile, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 0 auto; padding: 0 1.4em; }
 
-.profile h1, .communications, .job_title { text-align: center; }
+.profile h1, .communications, .job_title { text-align: left; }
 
 /* Dividers
 */
@@ -100,7 +100,9 @@ img, video, object { max-width: 100%; }
 
 /* Profile
 */
-.profile h1 { margin: 1.55em 0 0; color: #ff4916; font-size: 1.9em; }
+.profile { margin: 10em 0 0; }
+
+.profile h1 { margin: 0; color: #ff4916; font-size: 1.9em; }
 
 .job_title { color: #3a89c9; }
 
@@ -110,7 +112,7 @@ img, video, object { max-width: 100%; }
 
 /* Communications
 */
-.communications { margin: 1.1em 0 0; }
+.communications { margin: 0.45em 0 0; }
 .communications ul { display: inline; }
 .communications li { display: inline; margin: 0 0.1em; }
 
@@ -123,8 +125,6 @@ svg { fill: #a8a890; }
 .work_detail p, .education_detail p, .communication_detail p, .pm_detail p, .coding_detail p, .personal_detail p, .interest_detail p { color: #1b325f; font-size: 0.8em; }
 .work_detail p:first-of-type, .education_detail p:first-of-type, .communication_detail p:first-of-type, .pm_detail p:first-of-type, .coding_detail p:first-of-type, .personal_detail p:first-of-type, .interest_detail p:first-of-type { margin: 10px inherit inherit; }
 
-/* Detail title
-*/
 .detail_title_background { background-color: #3a89c9; }
 
 /* Work Detail 
@@ -133,6 +133,6 @@ svg { fill: #a8a890; }
 
 /* Rest of the details
 */
-.work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 2.8em 0; }
+.work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 2.8em 0 0; }
 
 /*# sourceMappingURL=paint.css.map */

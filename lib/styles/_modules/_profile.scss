@@ -4,13 +4,17 @@
 {
 	color: $resume_header;
 }
-
 /* Profile
 */
 
+.profile
+{
+	margin: 10em 0 0;
+}
+
 .profile h1 /* My Name */
 {
-	margin: 1.55em 0 0;
+	margin: 0;
 	color: $strong;
 	font-size: 1.9em;
 }
@@ -31,7 +35,7 @@
 */
 .communications 
 {	
-	margin: 1.1em 0 0;
+	margin: 0.45em 0 0;
 	ul
 	{
 	display: inline;
