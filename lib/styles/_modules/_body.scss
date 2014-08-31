@@ -8,25 +8,15 @@ body
 	text-shadow: 0 .02em #fff;
 }
 
-.divider 
-{
-	background-color: $primary;
-}
-
 /* Global
 */
-
-.job_title
-{
-	color: $gray;
-}
 
 .profile h1, .communications, .job_title 
 {
 	text-align: center;
 }
 
-/* Shared
+/* Dividers
 */
 
 .small_divider
@@ -40,7 +30,7 @@ body
 hr {
   border-top: 0.1em dotted $dark;
   color: $paper;
-  background-color: #fff;
+  background-color: $paper;
   width: 100%;
 }
 
@@ -60,10 +50,6 @@ hr {
 	padding: 0 1.4em;
 }
 
-.profile .divider 
-{
-}
-
 .profile h1 /* My Name */
 {
 	margin: 1.55em 0 0;
@@ -71,8 +57,9 @@ hr {
 	font-size: 1.9em;
 }
 
-.profile h2 
+.job_title
 {
+	color: $gray;
 }
 
 /* Life Details
@@ -81,7 +68,6 @@ hr {
 {
 	font-size: 0.8em;
 }
-
 
 /* Communications
 */
