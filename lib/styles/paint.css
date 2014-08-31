@@ -42,9 +42,9 @@ ul { padding: 0; list-style: none; }
 *** Link
 **
 */
-a { text-decoration: none; color: black; }
+a { text-decoration: none; color: #3c3c3c; }
 
-a:visited { color: black; }
+a:visited { color: #3c3c3c; }
 
 /**
 *
@@ -55,17 +55,17 @@ img, video, object { max-width: 100%; }
 
 /* General
 */
-body { line-height: 1.2; }
+body { line-height: 1.2; background-color: #FFFAD6; color: #3c3c3c; }
 
-.divider { background-color: black; }
+.divider { background-color: #4159bd; }
 
 /* Global
 */
-.job_title, .profile h1 { color: black; }
+.job_title { color: #666666; }
 
 /* Shared
 */
-.small_divider { background-color: black; height: 3px; width: 100%; }
+.small_divider { background-color: #4159bd; height: 3px; width: 100%; }
 
 /* Profile
 */
@@ -73,7 +73,7 @@ body { line-height: 1.2; }
 
 .profile .divider { width: 100px; }
 
-.profile h2 { color: gray; }
+.profile h1 { color: #4b5eae; }
 
 /* Communications
 */
