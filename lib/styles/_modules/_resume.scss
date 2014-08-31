@@ -9,9 +9,9 @@
 		bottom: -0.3em;
 		left: -0.1em;
 	}
-	p:first-of-type
+	.detail_title_background
 	{
-		margin: 1em 0 0;
+		margin-bottom: 1em;
 	}
 	p
 	{
@@ -32,7 +32,7 @@
 	margin: 2.2em 0 0;
 }
 
-.detail_date
+.detail_above_hr
 {
 	margin: 1em 0 -0.5em 0;
 }
@@ -45,6 +45,14 @@
 
 /* Education Detail
 */
+.education_detail
+{
+	a
+	{
+		text-decoration: underline;
+		color: $strong;
+	}
+}
 .education_detail_subTitle
 {
 	margin: 0.5em 0 0;
@@ -54,6 +62,21 @@
 	margin: 0.3em 0 0;
 }
 
+/* Coding Detail
+*/
+.coding_detail
+{
+	ul
+	{
+		margin: 0 0 0 1.7em;
+		color: $text-color;
+		font-size: 0.8em; 
+	}
+	li
+	{
+		list-style: circle;
+	}
+}
 
 /* Rest of the details
 */ 

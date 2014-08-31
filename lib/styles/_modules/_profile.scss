@@ -24,6 +24,15 @@
 	color: $muted;
 }
 
+.bio
+{
+	a
+	{
+		text-decoration: underline;
+		color: $strong;
+	}
+}
+
 /* Life Details
 */
 .location, .born, .bio 
