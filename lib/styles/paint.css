@@ -8,16 +8,26 @@
 *
 *
 */
+/* Retrograde
+$paper : #FAFAED;
+$strong: #FF4916;
+$strong-alt: #3A89C9;
+$small-divider: #3A89C9;
+$text-color: #1B325F;
+$social_icons: #A8A890;
+$resume_header: #D8D8C0;
+$muted: #3A89C9;
+*/
 /*
 YTMND Col
 $paper : #FAFAED;
-$primary: rgb(65, 89, 189);
-$primary-alt: #FF4916;
-$secondary : white;
-$dark: rgb(60, 60, 60);
-$somber: #A8A890;
-$poached-ivory: #D8D8C0;
-$gray: rgb(102, 102, 102);
+$strong: #FF4916;
+$strong-alt: rgb(65, 89, 189);
+$small-divider: rgb(65, 89, 189);
+$text-color: rgb(60, 60, 60);
+$social_icons: #A8A890;
+$resume_header: #D8D8C0;
+$muted: rgb(102, 102, 102);
 */
 /*
 **
@@ -26,7 +36,7 @@ $gray: rgb(102, 102, 102);
 */
 /* General
 */
-body { background-color: #fafaed; color: #3c3c3c; text-shadow: 0 .02em #fff; line-height: 1.2; }
+body { background-color: #fafaed; color: #1b325f; text-shadow: 0 .02em #fff; line-height: 1.2; }
 
 /* Global
 */
@@ -36,9 +46,9 @@ body { background-color: #fafaed; color: #3c3c3c; text-shadow: 0 .02em #fff; lin
 
 /* Dividers
 */
-.small_divider { width: 100%; height: 0.2em; background-color: #4159bd; }
+.small_divider { width: 100%; height: 0.2em; background-color: #3a89c9; }
 
-hr { width: 100%; border-top: 0.1em dotted #3c3c3c; background-color: #fafaed; color: #fafaed; }
+hr { width: 100%; border-top: 0.1em dotted #3a89c9; background-color: #fafaed; color: #fafaed; }
 
 /* Resume Title
 */
@@ -73,9 +83,9 @@ ul { padding: 0; list-style: none; }
 *** Link
 **
 */
-a { color: #3c3c3c; text-decoration: none; }
+a { color: #1b325f; text-decoration: none; }
 
-a:visited { color: #3c3c3c; }
+a:visited { color: #1b325f; }
 
 /**
 *
@@ -92,7 +102,7 @@ img, video, object { max-width: 100%; }
 */
 .profile h1 { margin: 1.55em 0 0; color: #ff4916; font-size: 1.9em; }
 
-.job_title { color: #666666; }
+.job_title { color: #3a89c9; }
 
 /* Life Details
 */
@@ -113,7 +123,7 @@ svg { fill: #a8a890; }
 
 /* Detail title
 */
-.detail_title_background { background-color: #4159bd; }
+.detail_title_background { background-color: #3a89c9; }
 
 /* Work Detail 
 */

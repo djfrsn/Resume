@@ -8,7 +8,7 @@
 body
 {
 	background-color: $paper; 
-	color: $dark;
+	color: $text-color;
 	text-shadow: 0 .02em #fff;
 	line-height: 1.2;
 }
@@ -34,12 +34,12 @@ body
 {
 	width: 100%;
 	height: 0.2em;
-	background-color: $primary;
+	background-color: $small-divider;
 }
 
 hr {
   width: 100%;
-  border-top: 0.1em dotted $dark;
+  border-top: 0.1em dotted $small-divider;
   background-color: $paper;
   color: $paper;
 }
