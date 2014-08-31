@@ -59,6 +59,8 @@ body { background-color: #fff9e0; color: #3c3c3c; text-shadow: 0 .02em #fff; lin
 
 /* Global
 */
+.profile, .section_titles { margin: 0 auto; padding: 0 1.4em; }
+
 .profile h1, .communications, .job_title { text-align: center; }
 
 /* Dividers
@@ -73,8 +75,6 @@ hr { width: 100%; border-top: 0.1em dotted #3c3c3c; background-color: #fff9e0; c
 
 /* Profile
 */
-.profile { margin: 0 auto; padding: 0 1.4em; }
-
 .profile h1 { margin: 1.55em 0 0; color: #4b5eae; font-size: 1.9em; }
 
 .job_title { color: #666666; }
