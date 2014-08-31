@@ -1,5 +1,10 @@
 /* General
 */
+body
+{
+	line-height: 1.2;
+}
+
 .divider 
 {
 	background-color: $primary;
@@ -12,7 +17,6 @@
 {
 	color: $primary;
 }
-
 
 /* Shared
 */
@@ -29,7 +33,7 @@
 
 .profile 
 {
-	margin: 47px auto 0;
+	margin: 0 auto;
 	padding: 0 22px;
 }
 
@@ -40,7 +44,11 @@
 
 .profile h1 
 {
-	margin: 10px 0 0 0;
+	
+}
+.profile h2 
+{
+	color: gray;
 }
 
 /* Communications

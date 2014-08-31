@@ -55,6 +55,8 @@ img, video, object { max-width: 100%; }
 
 /* General
 */
+body { line-height: 1.2; }
+
 .divider { background-color: black; }
 
 /* Global
@@ -67,11 +69,11 @@ img, video, object { max-width: 100%; }
 
 /* Profile
 */
-.profile { margin: 47px auto 0; padding: 0 22px; }
+.profile { margin: 0 auto; padding: 0 22px; }
 
 .profile .divider { width: 100px; }
 
-.profile h1 { margin: 10px 0 0 0; }
+.profile h2 { color: gray; }
 
 /* Communications
 */
