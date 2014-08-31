@@ -42,7 +42,7 @@ ul { padding: 0; list-style: none; }
 *** Link
 **
 */
-a { text-decoration: none; color: #3c3c3c; }
+a { color: #3c3c3c; text-decoration: none; }
 
 a:visited { color: #3c3c3c; }
 
@@ -55,7 +55,7 @@ img, video, object { max-width: 100%; }
 
 /* General
 */
-body { line-height: 1.2; background-color: #FFFAD6; color: #3c3c3c; }
+body { background-color: #FFFAD6; color: #3c3c3c; line-height: 1.2; }
 
 .divider { background-color: #4159bd; }
 
@@ -67,20 +67,20 @@ body { line-height: 1.2; background-color: #FFFAD6; color: #3c3c3c; }
 
 /* Shared
 */
-.small_divider { background-color: #4159bd; height: 3px; width: 100%; }
+.small_divider { width: 100%; height: 0.2em; background-color: #4159bd; }
 
 /* Profile
 */
-.profile { margin: 0 auto; padding: 0 22px; }
+.profile { margin: 0 auto; padding: 0 1.4em; }
 
-.profile .divider { width: 100px; }
-
-.profile h1 { margin: 35px 0 0; color: #4b5eae; font-size: 1.9em; }
+.profile h1 { margin: 1.9em 0 0; color: #4b5eae; font-size: 1.9em; }
 
 /* Communications
 */
-.communications { margin: 17.5px 0 0; }
+.communications { margin: 1.1em 0 0; }
 .communications ul { display: inline; }
-.communications li { display: inline; }
+.communications li { margin: 0 0.1em; display: inline; }
+
+svg { fill: #3c3c3c; }
 
 /*# sourceMappingURL=paint.css.map */
