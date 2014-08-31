@@ -46,14 +46,21 @@ body
 
 .profile h1 /* My Name */
 {
+	margin: 35px 0 0;
 	color: $primary-alt;
+	font-size: 1.9em;
 }
 
 /* Communications
 */
-ul.communications 
-{
+.communications 
+{	
+	text-align: center;
+	margin: 17.5px 0 0;
+	ul
+	{
 	display: inline;
+	}
 	li 
 	{
 		display: inline;

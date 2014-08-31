@@ -73,11 +73,12 @@ body { line-height: 1.2; background-color: #FFFAD6; color: #3c3c3c; }
 
 .profile .divider { width: 100px; }
 
-.profile h1 { color: #4b5eae; }
+.profile h1 { margin: 35px 0 0; color: #4b5eae; font-size: 1.9em; }
 
 /* Communications
 */
-ul.communications { display: inline; }
-ul.communications li { display: inline; }
+.communications { text-align: center; margin: 17.5px 0 0; }
+.communications ul { display: inline; }
+.communications li { display: inline; }
 
 /*# sourceMappingURL=paint.css.map */
