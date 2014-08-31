@@ -3,4 +3,50 @@
 *** Global
 **
 */
+/* General
+*/
+body
+{
+	background-color: $paper; 
+	color: $dark;
+	text-shadow: 0 .02em #fff;
+	line-height: 1.2;
+}
 
+/* Global
+*/
+
+.profile, .detail, .first_detail 
+{
+	margin: 0 auto;
+	padding: 0 1.4em;
+}
+
+.profile h1, .communications, .job_title 
+{
+	text-align: center;
+}
+
+/* Dividers
+*/
+
+.small_divider
+{
+	width: 100%;
+	height: 0.2em;
+	background-color: $primary;
+}
+
+hr {
+  width: 100%;
+  border-top: 0.1em dotted $dark;
+  background-color: $paper;
+  color: $paper;
+}
+
+/* Resume Title
+*/
+.small-divider, .resume_header, .small-10, .large-12
+{
+	margin: 0 auto;
+}

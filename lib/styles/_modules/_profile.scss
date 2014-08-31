@@ -1,0 +1,52 @@
+/* Profile
+*/
+
+.profile h1 /* My Name */
+{
+	margin: 1.55em 0 0;
+	color: $primary-alt;
+	font-size: 1.9em;
+}
+
+.job_title
+{
+	color: $gray;
+}
+
+/* Life Details
+*/
+.location, .born, .bio 
+{
+	font-size: 0.8em;
+}
+
+/* Communications
+*/
+.communications 
+{	
+	margin: 1.1em 0 0;
+	ul
+	{
+	display: inline;
+	}
+	li 
+	{
+		display: inline;
+		margin: 0 0.1em;
+	}
+}
+
+svg 
+{
+	fill: $dark;
+}
+
+.email, .github 
+{
+}
+.twitter 
+{
+}
+.communications a 
+{
+}
