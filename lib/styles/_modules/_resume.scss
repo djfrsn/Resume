@@ -11,62 +11,18 @@
 	}
 }
 
+/* Detail title
+*/
+.detail_title
+{
+	background-color: $primary;
+}
+
 /* Work Detail 
 */
 .work_detail
 {
-	width: 9.1em;
 	margin: 2.2em 0 0;
-}
-
-/* Education Detail 
-*/
-.education_detail
-{
-	width: 13.3em;
-}
-
-/* Communication Detail 
-*/
-.communication_detail
-{
-	width: 19.1em;
-}
-
-/* Project Mangement Detail 
-*/
-.pm_detail
-{
-	width: 17em;
-}
-
-/* Coding Detail 
-*/
-.coding_detail
-{
-	width: 14.8em;
-}
-
-/* Personal Detail 
-*/
-.personal_detail
-{
-	width: 12.5em;
-}
-
-/* Interest Detail 
-*/
-.interest_detail
-{
-	width: 11.4em;
-}
-
-
-/* Header Block
-*/
-.header_block
-{
-	background-color: $primary;
 }
 
 /* Rest of the details
