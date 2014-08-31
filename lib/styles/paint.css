@@ -73,13 +73,13 @@ body { background-color: #FFFAD6; color: #3c3c3c; line-height: 1.2; }
 */
 .profile { margin: 0 auto; padding: 0 1.4em; }
 
-.profile h1 { margin: 1.9em 0 0; color: #4b5eae; font-size: 1.9em; }
+.profile h1 { margin: 1.55em 0 0; color: #4b5eae; font-size: 1.9em; }
 
 /* Communications
 */
 .communications { margin: 1.1em 0 0; }
 .communications ul { display: inline; }
-.communications li { margin: 0 0.1em; display: inline; }
+.communications li { display: inline; margin: 0 0.1em; }
 
 svg { fill: #3c3c3c; }
 
