@@ -1,7 +1,11 @@
 @include respond-to(large)
 {
+	.row
+	{
+		font-size: 0.98em;
+	}
 	.profile
 {
-	margin: 10em 0 0;
+	margin: 12em 0 10em;
 }
 }

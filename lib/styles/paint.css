@@ -146,6 +146,7 @@ svg { fill: #a8a890; }
 */
 .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 2.8em 0 0; }
 
-@media only screen and (min-width: 48em) { .profile { margin: 10em 0 0; } }
+@media only screen and (min-width: 48em) { .row { font-size: 0.98em; }
+  .profile { margin: 12em 0 10em; } }
 
 /*# sourceMappingURL=paint.css.map */
