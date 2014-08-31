@@ -4,8 +4,8 @@ body
 {
 	background-color: $paper; 
 	color: $dark;
-	line-height: 1.2;
 	text-shadow: 0 .02em #fff;
+	line-height: 1.2;
 }
 
 /* Global
@@ -22,16 +22,15 @@ body
 .small_divider
 {
 	width: 100%;
-	
 	height: 0.2em;
 	background-color: $primary;
 }
 
 hr {
-  border-top: 0.1em dotted $dark;
-  color: $paper;
-  background-color: $paper;
   width: 100%;
+  border-top: 0.1em dotted $dark;
+  background-color: $paper;
+  color: $paper;
 }
 
 /* Resume

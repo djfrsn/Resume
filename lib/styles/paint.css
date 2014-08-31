@@ -55,7 +55,7 @@ img, video, object { max-width: 100%; }
 
 /* General
 */
-body { background-color: #fff9e0; color: #3c3c3c; line-height: 1.2; text-shadow: 0 .02em #fff; }
+body { background-color: #fff9e0; color: #3c3c3c; text-shadow: 0 .02em #fff; line-height: 1.2; }
 
 /* Global
 */
@@ -65,7 +65,7 @@ body { background-color: #fff9e0; color: #3c3c3c; line-height: 1.2; text-shadow:
 */
 .small_divider { width: 100%; height: 0.2em; background-color: #4159bd; }
 
-hr { border-top: 0.1em dotted #3c3c3c; color: #fff9e0; background-color: #fff9e0; width: 100%; }
+hr { width: 100%; border-top: 0.1em dotted #3c3c3c; background-color: #fff9e0; color: #fff9e0; }
 
 /* Resume
 */
