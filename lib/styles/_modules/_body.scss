@@ -5,6 +5,7 @@ body
 	background-color: $paper; 
 	color: $dark;
 	line-height: 1.2;
+	text-shadow: 0 .02em #fff;
 }
 
 .divider 
@@ -69,11 +70,11 @@ hr {
 {
 }
 
-/* Bio
+/* Life Details
 */
-.bio 
+.location, .born, .bio 
 {
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
 
 

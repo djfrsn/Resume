@@ -55,7 +55,7 @@ img, video, object { max-width: 100%; }
 
 /* General
 */
-body { background-color: #fffad6; color: #3c3c3c; line-height: 1.2; }
+body { background-color: #fffad6; color: #3c3c3c; line-height: 1.2; text-shadow: 0 .02em #fff; }
 
 .divider { background-color: #4159bd; }
 
@@ -77,9 +77,9 @@ hr { border-top: 0.1em dotted #3c3c3c; color: #fffad6; background-color: #fff; w
 
 .profile h1 { margin: 1.55em 0 0; color: #4b5eae; font-size: 1.9em; }
 
-/* Bio
+/* Life Details
 */
-.bio { font-size: 0.9em; }
+.location, .born, .bio { font-size: 0.8em; }
 
 /* Communications
 */
