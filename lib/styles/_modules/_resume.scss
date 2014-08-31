@@ -3,6 +3,12 @@
 .first_detail, .detail
 {
 	color: $paper;
+	h1
+	{
+		position: relative;
+		bottom: -0.3em;
+		left: -0.1em;
+	}
 }
 
 /* First Detail 
@@ -26,6 +32,5 @@
 	margin: 2.8em 0;
 	h1
 	{
-		
 	}
 }

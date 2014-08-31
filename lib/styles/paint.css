@@ -94,6 +94,7 @@ svg { fill: #3c3c3c; }
 /* All Details
 */
 .first_detail, .detail { color: #fff9e0; }
+.first_detail h1, .detail h1 { position: relative; bottom: -0.3em; left: -0.1em; }
 
 /* First Detail 
 */
