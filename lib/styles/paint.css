@@ -38,6 +38,8 @@ $muted: rgb(102, 102, 102);
 */
 body { background-color: #fafaed; color: #1b325f; text-shadow: 0 .02em #fff; line-height: 1.2; }
 
+.italic { font-style: italic; }
+
 /* Global
 */
 .profile, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 0 auto; padding: 0 1.4em; }
@@ -100,7 +102,7 @@ img, video, object { max-width: 100%; }
 
 /* Profile
 */
-.profile { margin: 10em 0 0; }
+.profile { margin: 4em 0 0; }
 
 .profile h1 { margin: 0; color: #ff4916; font-size: 1.9em; }
 
@@ -123,7 +125,6 @@ svg { fill: #a8a890; }
 .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { color: #fafaed; }
 .work_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.3em; left: -0.1em; }
 .work_detail p, .education_detail p, .communication_detail p, .pm_detail p, .coding_detail p, .personal_detail p, .interest_detail p { color: #1b325f; font-size: 0.8em; }
-.work_detail p:first-of-type, .education_detail p:first-of-type, .communication_detail p:first-of-type, .pm_detail p:first-of-type, .coding_detail p:first-of-type, .personal_detail p:first-of-type, .interest_detail p:first-of-type { margin: 10px inherit inherit; }
 
 .detail_title_background { background-color: #3a89c9; }
 
@@ -131,8 +132,20 @@ svg { fill: #a8a890; }
 */
 .work_detail { margin: 2.2em 0 0; }
 
+.detail_date { margin: 1em 0 -0.5em 0; }
+
+.detail_date_title { margin: -0.5em 0 0.3em; font-style: italic; }
+
+/* Education Detail
+*/
+.education_detail_subTitle { margin: 0.5em 0 0; }
+
+.education_detail_crumb { margin: 0.3em 0 0; }
+
 /* Rest of the details
 */
 .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 2.8em 0 0; }
+
+@media only screen and (min-width: 48em) { .profile { margin: 10em 0 0; } }
 
 /*# sourceMappingURL=paint.css.map */

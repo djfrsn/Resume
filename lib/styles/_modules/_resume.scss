@@ -14,10 +14,6 @@
 		color: $text-color;
 		font-size: 0.8em; 
 	}
-	p:first-of-type
-	{
-		margin: 10px inherit inherit;
-	}
 }
 
 .detail_title_background
@@ -31,6 +27,29 @@
 {
 	margin: 2.2em 0 0;
 }
+
+.detail_date
+{
+	margin: 1em 0 -0.5em 0;
+}
+
+.detail_date_title
+{
+	margin: -0.5em 0 0.3em;
+	font-style: italic;
+}
+
+/* Education Detail
+*/
+.education_detail_subTitle
+{
+	margin: 0.5em 0 0;
+}
+.education_detail_crumb
+{
+	margin: 0.3em 0 0;
+}
+
 
 /* Rest of the details
 */ 
