@@ -9,6 +9,15 @@
 		bottom: -0.3em;
 		left: -0.1em;
 	}
+	p
+	{
+		color: $text-color;
+		font-size: 0.8em; 
+	}
+	p:first-of-type
+	{
+		margin: 10px inherit inherit;
+	}
 }
 
 /* Detail title
