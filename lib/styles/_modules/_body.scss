@@ -20,6 +20,11 @@ body
 	color: $gray;
 }
 
+.profile h1, .communications, .job_title 
+{
+	text-align: center;
+}
+
 /* Shared
 */
 
@@ -55,7 +60,6 @@ body
 */
 .communications 
 {	
-	text-align: center;
 	margin: 17.5px 0 0;
 	ul
 	{

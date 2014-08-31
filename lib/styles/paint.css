@@ -63,6 +63,8 @@ body { line-height: 1.2; background-color: #FFFAD6; color: #3c3c3c; }
 */
 .job_title { color: #666666; }
 
+.profile h1, .communications, .job_title { text-align: center; }
+
 /* Shared
 */
 .small_divider { background-color: #4159bd; height: 3px; width: 100%; }
@@ -77,7 +79,7 @@ body { line-height: 1.2; background-color: #FFFAD6; color: #3c3c3c; }
 
 /* Communications
 */
-.communications { text-align: center; margin: 17.5px 0 0; }
+.communications { margin: 17.5px 0 0; }
 .communications ul { display: inline; }
 .communications li { display: inline; }
 
