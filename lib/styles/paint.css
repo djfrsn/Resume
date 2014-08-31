@@ -9,13 +9,24 @@
 *
 */
 /*
+YTMND Col
+$paper : #FAFAED;
+$primary: rgb(65, 89, 189);
+$primary-alt: #FF4916;
+$secondary : white;
+$dark: rgb(60, 60, 60);
+$somber: #A8A890;
+$poached-ivory: #D8D8C0;
+$gray: rgb(102, 102, 102);
+*/
+/*
 **
 *** Global
 **
 */
 /* General
 */
-body { background-color: #fff9e0; color: #3c3c3c; text-shadow: 0 .02em #fff; line-height: 1.2; }
+body { background-color: #fafaed; color: #3c3c3c; text-shadow: 0 .02em #fff; line-height: 1.2; }
 
 /* Global
 */
@@ -27,7 +38,7 @@ body { background-color: #fff9e0; color: #3c3c3c; text-shadow: 0 .02em #fff; lin
 */
 .small_divider { width: 100%; height: 0.2em; background-color: #4159bd; }
 
-hr { width: 100%; border-top: 0.1em dotted #3c3c3c; background-color: #fff9e0; color: #fff9e0; }
+hr { width: 100%; border-top: 0.1em dotted #3c3c3c; background-color: #fafaed; color: #fafaed; }
 
 /* Resume Title
 */
@@ -73,9 +84,13 @@ a:visited { color: #3c3c3c; }
 **/
 img, video, object { max-width: 100%; }
 
+/* Resume
+*/
+.resume_header { color: #d8d8c0; }
+
 /* Profile
 */
-.profile h1 { margin: 1.55em 0 0; color: #4b5eae; font-size: 1.9em; }
+.profile h1 { margin: 1.55em 0 0; color: #ff4916; font-size: 1.9em; }
 
 .job_title { color: #666666; }
 
@@ -89,11 +104,11 @@ img, video, object { max-width: 100%; }
 .communications ul { display: inline; }
 .communications li { display: inline; margin: 0 0.1em; }
 
-svg { fill: #3c3c3c; }
+svg { fill: #a8a890; }
 
 /* All Details
 */
-.work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { color: #fff9e0; }
+.work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { color: #fafaed; }
 .work_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.3em; left: -0.1em; }
 
 /* Detail title
