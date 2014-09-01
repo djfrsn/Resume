@@ -9,7 +9,7 @@ body
 {
 	background-color: $paper; 
 	color: $legible;
-	text-shadow: 0 .02em #fff;
+	text-shadow: 0 0.02em #fff;
 	line-height: 1.2;
 }
 
@@ -33,6 +33,11 @@ body
 	background-color: $strong-alt; 
 }
 
+.light
+{
+	background-color: $light;
+}
+
 .legible
 {
 	background-color: $legible;
@@ -43,13 +48,22 @@ body
 	background-color: $muted;
 }
 
-/* Global
+/* Resume
 */
-/*
-.small-12 
+
+.resume_header, .resume_footer
 {
-max-width: 20.792em;
+	color: $light;
 }
+
+/* Resume Title
+*/
+.small-divider, .resume_header, .small-10, .large-12
+{
+	margin: 0 auto;
+}
+
+/* Shared
 */
 .profile, .purpose_detail, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail
 {
@@ -70,7 +84,7 @@ max-width: 20.792em;
 }
 .header_divider
 {
-	width: 50%;
+	width: 20%;
 	float: left;
 	height: 0.2em;
 	display: inline-block; 
@@ -91,9 +105,3 @@ hr {
   color: $paper;
 }
 
-/* Resume Title
-*/
-.small-divider, .resume_header, .small-10, .large-12
-{
-	margin: 0 auto;
-}

@@ -36,7 +36,7 @@ $strong-alt: rgb(102, 102, 102);
 */
 /* General
 */
-body { background-color: #fafaed; color: #1b325f; text-shadow: 0 .02em #fff; line-height: 1.2; }
+body { background-color: #fafaed; color: #1b325f; text-shadow: 0 0.02em #fff; line-height: 1.2; }
 
 .italic { font-style: italic; }
 
@@ -48,17 +48,21 @@ body { background-color: #fafaed; color: #1b325f; text-shadow: 0 .02em #fff; lin
 
 .strong-alt { background-color: #3a89c9; }
 
+.light { background-color: #d8d8c0; }
+
 .legible { background-color: #1b325f; }
 
 .muted { background-color: #a8a890; }
 
-/* Global
+/* Resume
 */
-/*
-.small-12 
-{
-max-width: 20.792em;
-}
+.resume_header, .resume_footer { color: #d8d8c0; }
+
+/* Resume Title
+*/
+.small-divider, .resume_header, .small-10, .large-12 { margin: 0 auto; }
+
+/* Shared
 */
 .profile, .purpose_detail, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 0 auto; padding: 0 1.4em; }
 
@@ -68,15 +72,11 @@ max-width: 20.792em;
 */
 .divider_container { width: 100%; }
 
-.header_divider { width: 50%; float: left; height: 0.2em; display: inline-block; }
+.header_divider { width: 20%; float: left; height: 0.2em; display: inline-block; }
 
 .small_divider { width: 100%; height: 0.2em; background-color: #3a89c9; }
 
 hr { width: 100%; border-top: 0.1em dotted #3a89c9; background-color: #fafaed; color: #fafaed; }
-
-/* Resume Title
-*/
-.small-divider, .resume_header, .small-10, .large-12 { margin: 0 auto; }
 
 /*
 **
@@ -115,16 +115,16 @@ a.social_icon { color: #3a89c9; }
 
 a:visited.social_icon { color: #3a89c9; }
 
+a.studio_footer { color: #1b325f; text-decoration: none; }
+
+a:visited.studio_footer { color: #1b325f; text-decoration: none; }
+
 /**
 *
 * Media - imgs/videos
 *
 **/
 img, video, object { max-width: 100%; }
-
-/* Resume
-*/
-.resume_header { color: #d8d8c0; }
 
 /* Profile
 */
