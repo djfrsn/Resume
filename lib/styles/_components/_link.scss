@@ -3,10 +3,13 @@
 *** Link
 **
 */
-
-a {color: $text-color;  text-decoration: none; }
+a
+{
+	color: $strong;
+	text-decoration: underline;
+}
 
 a:visited 
 {
-	color: $text-color;
+	color: $strong;
 }

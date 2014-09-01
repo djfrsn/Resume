@@ -85,9 +85,9 @@ ul { padding: 0; list-style: none; }
 *** Link
 **
 */
-a { color: #1b325f; text-decoration: none; }
+a { color: #ff4916; text-decoration: underline; }
 
-a:visited { color: #1b325f; }
+a:visited { color: #ff4916; }
 
 /**
 *
@@ -103,12 +103,13 @@ img, video, object { max-width: 100%; }
 /* Profile
 */
 .profile { margin: 4em 0 0; }
+.profile a { text-decoration: none; }
 
 .profile h1 { margin: 0; color: #ff4916; font-size: 1.9em; }
 
 .job_title { color: #3a89c9; }
 
-.bio a { text-decoration: underline; color: #ff4916; }
+.bio a { color: #ff4916; text-decoration: underline; }
 
 /* Life Details
 */
@@ -129,7 +130,7 @@ svg { fill: #a8a890; }
 .work_detail .detail_title_background, .project_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
 .work_detail p, .project_detail p, .education_detail p, .communication_detail p, .pm_detail p, .coding_detail p, .personal_detail p, .interest_detail p { color: #1b325f; font-size: 0.8em; }
 
-.project_management_detail, .education_detail { bottom: -0.3em; }
+.pm_detail h1, .education_detail h1 { bottom: -0.235em; }
 
 .detail_title_background { background-color: #3a89c9; }
 
@@ -141,10 +142,10 @@ svg { fill: #a8a890; }
 
 .detail_date_title { margin: -0.5em 0 0.3em; font-style: italic; }
 
+/* Project Details
+*/
 /* Education Detail
 */
-.education_detail a { text-decoration: underline; color: #ff4916; }
-
 .education_detail_subTitle { margin: 0.5em 0 0; }
 
 .education_detail_crumb { margin: 0.3em 0 0; }

@@ -19,10 +19,14 @@
 		font-size: 0.8em; 
 	}
 }
-.project_management_detail, .education_detail
+.pm_detail, .education_detail
 		{
-			bottom: -0.3em;
+			h1
+			{
+			bottom: -0.235em;	
+			}	
 		}
+
 .detail_title_background
 {
 	background-color: $strong-alt;
@@ -46,15 +50,20 @@
 	font-style: italic;
 }
 
+/* Project Details
+*/
+.detail_date_title
+{
+	ul
+	{
+		
+	}
+}
 /* Education Detail
 */
 .education_detail
 {
-	a
-	{
-		color: $strong;
-		text-decoration: underline;
-	}
+	
 }
 .education_detail_subTitle
 {
