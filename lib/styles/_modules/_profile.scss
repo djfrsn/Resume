@@ -26,7 +26,19 @@
 {
 	color: $muted;
 }
-
+.profile_detail_email
+{
+	font-size: 0.8em;
+	text-decoration: underline; 
+	margin-bottom: 0.24em;
+}
+.profile_detail_tel
+{
+	
+	font-size: 0.8em;
+	color: $strong-alt; 
+	margin-bottom: 1em;
+}
 .bio
 {
 	a

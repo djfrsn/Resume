@@ -10,27 +10,30 @@
 		max-width: 62.5em;
 	}
 	.profile
-{
-	margin: 12em 0 10em;
-}
-.profile, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail
-{
+	{
+		margin: 12em 0 10em;
+	}
+	.profile, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail
+	{
 	h1
 	{
 		position: relative;
 		bottom: -0.25em;
 		left: -0.1em;
 	}
+	.job_title {
+	margin: 0.5em 0 0;
+	}
 	.detail_title_background
 	{
 		margin-bottom: 1em;
 	}
-}
-.pm_detail, .education_detail
+	}
+	.pm_detail, .education_detail
 		{
 			h1
 			{
 			bottom: -0.24em;	
 			}	
-		}
+	}
 }
