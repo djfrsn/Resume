@@ -8,8 +8,18 @@ a
 	color: $strong;
 	text-decoration: underline;
 }
-
 a:visited 
 {
 	color: $strong;
 }
+
+a.strong-alt
+{
+	color: $strong-alt;
+}
+a:visited.strong-alt
+{
+	color: $strong-alt;
+}
+
+

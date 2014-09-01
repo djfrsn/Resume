@@ -89,6 +89,10 @@ a { color: #ff4916; text-decoration: underline; }
 
 a:visited { color: #ff4916; }
 
+a.strong-alt { color: #3a89c9; }
+
+a:visited.strong-alt { color: #3a89c9; }
+
 /**
 *
 * Media - imgs/videos
@@ -144,6 +148,8 @@ svg { fill: #a8a890; }
 
 /* Project Details
 */
+.lone_p { margin: 1em 0 0; }
+
 /* Education Detail
 */
 .education_detail_subTitle { margin: 0.5em 0 0; }
