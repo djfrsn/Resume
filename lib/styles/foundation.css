@@ -315,7 +315,8 @@ select {
     width: 91.66667%; }
 
   .small-12 {
-    width: 100%; }
+    width: 100%; 
+}
 
   .small-offset-0 {
     margin-left: 0% !important; }

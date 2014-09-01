@@ -1,5 +1,9 @@
 @include respond-to(large)
 {
+	.small-12
+	{
+	    max-width: 21.692em;
+	}
 	.row
 	{
 		font-size: 0.98em;
