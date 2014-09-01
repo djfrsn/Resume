@@ -42,8 +42,12 @@ body { background-color: #fafaed; color: #1b325f; text-shadow: 0 .02em #fff; lin
 
 /* Global
 */
-.small-12 { max-width: 20.792em; }
-
+/*
+.small-12 
+{
+max-width: 20.792em;
+}
+*/
 .profile, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 0 auto; padding: 0 1.4em; }
 
 .profile h1, .communications, .job_title { text-align: left; }
@@ -108,7 +112,7 @@ img, video, object { max-width: 100%; }
 
 /* Profile
 */
-.profile { margin: 4em 0 0; }
+.profile { margin: 4em auto 0; }
 .profile a { text-decoration: none; }
 
 .profile h1 { margin: 0; color: #ff4916; font-size: 1.9em; }
@@ -170,8 +174,9 @@ svg { fill: #a8a890; }
 @media only screen and (min-width: 64.063em) { .small-12 { max-width: 21.692em; }
   .row { font-size: 0.98em; }
   .profile { margin: 12em 0 10em; }
-  .work_detail h1, .project_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.25em; left: -0.1em; }
-  .work_detail .detail_title_background, .project_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
+  .profile, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { float: left; }
+  .profile h1, .project_detail h1, .work_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.25em; left: -0.1em; }
+  .profile .detail_title_background, .project_detail .detail_title_background, .work_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
   .pm_detail h1, .education_detail h1 { bottom: -0.24em; } }
 
 /*# sourceMappingURL=paint.css.map */
