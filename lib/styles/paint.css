@@ -178,5 +178,3 @@ svg { fill: #a8a890; }
   .profile h1, .project_detail h1, .work_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.25em; left: -0.1em; }
   .profile .detail_title_background, .project_detail .detail_title_background, .work_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
   .pm_detail h1, .education_detail h1 { bottom: -0.24em; } }
-
-/*# sourceMappingURL=paint.css.map */
