@@ -50,7 +50,7 @@ body { background-color: #fafaed; color: #1b325f; text-shadow: 0 .02em #fff; lin
 max-width: 20.792em;
 }
 */
-.profile, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 0 auto; padding: 0 1.4em; }
+.profile, .purpose_detail, .project_detail, .work_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 0 auto; padding: 0 1.4em; }
 
 .profile h1, .communications, .job_title { text-align: left; }
 
@@ -141,10 +141,10 @@ svg { fill: #a8a890; }
 
 /* All Details
 */
-.work_detail, .project_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { color: #fafaed; }
-.work_detail h1, .project_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.3em; left: -0.1em; }
-.work_detail .detail_title_background, .project_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
-.work_detail p, .project_detail p, .education_detail p, .communication_detail p, .pm_detail p, .coding_detail p, .personal_detail p, .interest_detail p { color: #1b325f; font-size: 0.8em; }
+.work_detail, .purpose_detail, .project_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { color: #fafaed; }
+.work_detail h1, .purpose_detail h1, .project_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.3em; left: -0.1em; }
+.work_detail .detail_title_background, .purpose_detail .detail_title_background, .project_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
+.work_detail p, .purpose_detail p, .project_detail p, .education_detail p, .communication_detail p, .pm_detail p, .coding_detail p, .personal_detail p, .interest_detail p { color: #1b325f; font-size: 0.8em; }
 
 .detail_title_background { background-color: #3a89c9; }
 
@@ -173,14 +173,14 @@ svg { fill: #a8a890; }
 
 /* Rest of the details
 */
-.work_detail, .education_detail, .project_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 2.8em 0 0; }
+.work_detail, .purpose_detail, .education_detail, .project_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail { margin: 2.8em 0 0; }
 
-.pm_detail { margin-bottom: 7.5em; }
+.interest_detail { margin-bottom: 7.5em; }
 
 @media only screen and (min-width: 64.063em) { .small-12 { max-width: 21.692em; }
   .row { font-size: 0.98em; max-width: 62.5em; }
   .profile { margin: 12em 0 10em; }
-  .profile h1, .project_detail h1, .work_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.25em; left: -0.1em; }
-  .profile .job_title, .project_detail .job_title, .work_detail .job_title, .education_detail .job_title, .communication_detail .job_title, .pm_detail .job_title, .coding_detail .job_title, .personal_detail .job_title, .interest_detail .job_title { margin: 0.5em 0 0; }
-  .profile .detail_title_background, .project_detail .detail_title_background, .work_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
+  .profile h1, .purpose_detail h1, .project_detail h1, .work_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.25em; left: -0.1em; }
+  .profile .job_title, .purpose_detail .job_title, .project_detail .job_title, .work_detail .job_title, .education_detail .job_title, .communication_detail .job_title, .pm_detail .job_title, .coding_detail .job_title, .personal_detail .job_title, .interest_detail .job_title { margin: 0.5em 0 0; }
+  .profile .detail_title_background, .purpose_detail .detail_title_background, .project_detail .detail_title_background, .work_detail .detail_title_background, .education_detail .detail_title_background, .communication_detail .detail_title_background, .pm_detail .detail_title_background, .coding_detail .detail_title_background, .personal_detail .detail_title_background, .interest_detail .detail_title_background { margin-bottom: 1em; }
   .pm_detail h1, .education_detail h1 { bottom: -0.24em; } }

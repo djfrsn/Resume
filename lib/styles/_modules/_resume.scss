@@ -1,6 +1,6 @@
 /* All Details
 */
-.work_detail, .project_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail
+.work_detail, .purpose_detail, .project_detail, .education_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail
 {
 	color: $paper;
 	h1
@@ -45,13 +45,6 @@
 
 /* Project Details
 */
-.detail_date_title
-{
-	ul
-	{
-		
-	}
-}
 .lone_p
 {
 	margin: 1em 0 0;
@@ -89,14 +82,11 @@
 
 /* Rest of the details
 */ 
-.work_detail, .education_detail, .project_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail
+.work_detail, .purpose_detail, .education_detail, .project_detail, .communication_detail, .pm_detail, .coding_detail, .personal_detail, .interest_detail
 {
 	margin: 2.8em 0 0;
-	h1
-	{
-	}
 }
-.pm_detail
+.interest_detail
 {
 	margin-bottom: 7.5em;
 }
