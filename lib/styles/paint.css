@@ -40,7 +40,7 @@ body { background-color: #fafaed; color: #1b325f; text-shadow: 0 0.02em #fff; li
 
 .italic { font-style: italic; }
 
-.row { max-width: 20.792em; }
+.row { max-width: 20.792em; font-size: 1em; }
 
 /* Colors
 */
@@ -192,7 +192,7 @@ svg { fill: #a8a890; }
 .interest_detail { margin-bottom: 7.5em; }
 
 @media only screen and (min-width: 64.063em) { .small-12 { max-width: 21.692em; }
-  .row { font-size: 0.98em; max-width: 62.5em; }
+  .row { max-width: 62.5em; }
   .profile { margin: 12em 0 10em; }
   .profile h1, .purpose_detail h1, .project_detail h1, .work_detail h1, .education_detail h1, .communication_detail h1, .pm_detail h1, .coding_detail h1, .personal_detail h1, .interest_detail h1 { position: relative; bottom: -0.25em; left: -0.1em; }
   .profile .job_title, .purpose_detail .job_title, .project_detail .job_title, .work_detail .job_title, .education_detail .job_title, .communication_detail .job_title, .pm_detail .job_title, .coding_detail .job_title, .personal_detail .job_title, .interest_detail .job_title { margin: 0.5em 0 0; }
