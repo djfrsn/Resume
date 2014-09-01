@@ -8,7 +8,7 @@
 body
 {
 	background-color: $paper; 
-	color: $text-color;
+	color: $legible;
 	text-shadow: 0 .02em #fff;
 	line-height: 1.2;
 }
@@ -21,6 +21,28 @@ body
 {
 	max-width: 20.792em;
 }
+
+/* Colors
+*/
+.strong
+{
+	background-color: $strong; 
+}
+.strong-alt
+{
+	background-color: $strong-alt; 
+}
+
+.legible
+{
+	background-color: $legible;
+}
+
+.muted
+{
+	background-color: $muted;
+}
+
 /* Global
 */
 /*
@@ -42,17 +64,29 @@ max-width: 20.792em;
 
 /* Dividers
 */
+.divider_container
+{
+	width: 100%; 
+}
+.header_divider
+{
+	width: 50%;
+	float: left;
+	height: 0.2em;
+	display: inline-block; 
+
+}
 
 .small_divider
 {
 	width: 100%;
 	height: 0.2em;
-	background-color: $small-divider;
+	background-color: $strong-alt;
 }
 
 hr {
   width: 100%;
-  border-top: 0.1em dotted $small-divider;
+  border-top: 0.1em dotted $strong-alt;
   background-color: $paper;
   color: $paper;
 }

@@ -2,7 +2,7 @@
 */
 .resume_header
 {
-	color: $resume_header;
+	color: $light;
 }
 /* Profile
 */
@@ -24,7 +24,7 @@
 
 .job_title
 {
-	color: $muted;
+	color: $strong-alt;
 }
 .profile_detail_email
 {
@@ -73,7 +73,7 @@
 
 svg 
 {
-	fill: $social_icons;
+	fill: $muted;
 }
 
 .email, .github 
